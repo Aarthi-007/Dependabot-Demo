@@ -1,0 +1,29 @@
+{
+  "name": "dependabot-demo",
+  "version": "1.0.0",
+  "description": "Production-style Node.js REST API designed for GitHub Dependabot live demonstration",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "keywords": [
+    "dependabot",
+    "express",
+    "nodejs",
+    "rest-api",
+    "testing",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
